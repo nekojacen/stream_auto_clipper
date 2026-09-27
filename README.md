@@ -40,12 +40,11 @@ Install the required scientific computing libraries:
 
 
 ## Place your downloaded stream video in the same folder as autoclipper.py and name it stream_vod.mp4 (or update the script's configuration to match your filename).
-'''bash
 Run the script:
 
-Bash
+'''Bash
 python autoclipper.py
-'''
+
 Check the newly created clips/ folder for your rough cuts!
 
 Configuration
