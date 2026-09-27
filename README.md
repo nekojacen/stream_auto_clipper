@@ -35,14 +35,14 @@ The script relies heavily on FFmpeg for audio extraction and video cutting. It m
 
 ### 2. Install Python Packages
 Install the required scientific computing libraries:
-'pip install numpy scipy'
+`pip install numpy scipy`
 
 
 
 ## Place your downloaded stream video in the same folder as autoclipper.py and name it stream_vod.mp4 (or update the script's configuration to match your filename).
 Run the script:
 
-'python autoclipper.py'
+`python autoclipper.py`
 
 Check the newly created clips/ folder for your rough cuts!
 
