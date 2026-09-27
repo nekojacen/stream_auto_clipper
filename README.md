@@ -49,17 +49,16 @@ Check the newly created clips/ folder for your rough cuts!
 Configuration
 You can easily tweak how the clipper behaves by modifying the variables at the top of autoclipper.py:
 
-Python
 # --- Configuration ---
-VIDEO_FILE = "stream_vod.mp4"  # The name of your input video file
+VIDEO_FILE = "stream_vod.mp4"   # The name of your input video file
 
-OUTPUT_DIR = "clips"           # The folder where clips will be saved
+OUTPUT_DIR = "clips"            # The folder where clips will be saved
 
-CONTEXT_BEFORE = 15            # Seconds to include before the loud spike (the setup)
+CONTEXT_BEFORE = 15             # Seconds to include before the loud spike (the setup)
 
-CONTEXT_AFTER = 10             # Seconds to include after the loud spike (the reaction)
+CONTEXT_AFTER = 10              # Seconds to include after the loud spike (the reaction)
 
-THRESHOLD_PERCENTILE = 98      # Scans for the top 2% loudest audio moments. Lower this number to get MORE clips, raise it to get FEWER.
+THRESHOLD_PERCENTILE = 98       # Scans for the top 2% loudest audio moments. Lower this number to get MORE clips, raise it to get FEWER.
 
 
 # --- Tips for Best Results ---
