@@ -42,8 +42,7 @@ Install the required scientific computing libraries:
 ## Place your downloaded stream video in the same folder as autoclipper.py and name it stream_vod.mp4 (or update the script's configuration to match your filename).
 Run the script:
 
-'''Bash
-python autoclipper.py
+'python autoclipper.py'
 
 Check the newly created clips/ folder for your rough cuts!
 
@@ -57,7 +56,8 @@ OUTPUT_DIR = "clips"           # The folder where clips will be saved
 CONTEXT_BEFORE = 15            # Seconds to include before the loud spike (the setup)
 CONTEXT_AFTER = 10             # Seconds to include after the loud spike (the reaction)
 THRESHOLD_PERCENTILE = 98      # Scans for the top 2% loudest audio moments. Lower this number to get MORE clips, raise it to get FEWER.
-Tips for Best Results
+
+# --- Tips for Best Results ---
 Microphone Routing: Because AutoClipper relies on volume thresholds, it works best when your audio levels are clean. If you use virtual audio mixers to separate audio tracks, ensuring your microphone peaks higher than your desktop/game audio will yield the most accurate, reaction-focused cuts.
 
 Editing: These clips are "rough cuts" meant to save you time hunting for moments. Drop them directly into your timeline to add your visual effects, text, and formatting.
